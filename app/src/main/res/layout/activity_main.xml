@@ -9,11 +9,11 @@
 
     <include layout="@layout/toolbar" />
 
-    <!--<fragment-->
-        <!--android:id="@+id/banners_fragment"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="217.5dp">-->
-
-    <!--</fragment>-->
+    <fragment
+        android:id="@+id/banners_fragment"
+        android:name="com.skaffman.napoleonit.banners.BannersFragment"
+        android:layout_width="match_parent"
+        android:layout_height="217.5dp">
+    </fragment>
 
 </LinearLayout>
